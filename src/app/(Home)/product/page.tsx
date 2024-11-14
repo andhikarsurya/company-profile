@@ -5,14 +5,16 @@ import Link from "next/link";
 //belum selesai
 export default async function Product(){
     const data: IGame[] = await getGames();
+    
     return(
         <div>
             <div id="games-section" className="w-screen min-h-[100vh] p-8 bg-slate-700 flex flex-col justify-center items-center">
-            <div className="games-header w-full text-yellow-200 p-4 text-center">
-            <h1 className="games-title text-2xl font-bold">Games</h1>
+            <div className="games-header w-full text-yellow-200 p-4 text-center mt-[3rem]">
+            <h1 className=" games-title text-2xl font-bold">Games</h1>
         </div>
       {data.map((item,idx) => {
-          
+          const imageUrl = `https://${item.fields.thumbnail.fields.file.url}`;
+          console.log(imageUrl); // Log the image URL
 
         return (
             
@@ -21,7 +23,7 @@ export default async function Product(){
             <div className="game-card flex flex-col md:flex-row justify-start items-start bg-slate-900 p-4 gap-4 border-2 w-full max-w-md mx-auto md:max-w-[200rem]">
                 <div className="game-image w-full md:w-auto flex-shrink-0 flex justify-center">
                 <Image
-                      src={`https://${item.fields.thumbnail.fields.file.url}`}
+                      src={imageUrl}
                       alt={"item.fields.title"}
                       width={200}
                       height={200}
