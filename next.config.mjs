@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https', // Use 'https' for secure image URLs
-        hostname: 'cdn.example.com', // Replace with the actual image hosting domain
+        hostname: 'i.pravatar.cc', // Add the i.pravatar.cc hostname
         pathname: '/**', // Allow all paths under the domain
       },
       {
