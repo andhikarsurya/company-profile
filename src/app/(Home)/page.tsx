@@ -79,13 +79,13 @@ export default function Home() {
                   height={500}      
                 />
                 </div>
-                {/* <div><p>Create, Build, Explore</p></div> */}
+                <div><p>Create, Build, Explore</p></div>
             </div>
         </div>
         <div className="w-1/2 flex justify-center items-center h-full flex-col">
             <div className="flex justify-center items-center md:flex-col bg-slate-900 p-[1rem] gap-[1rem] border-2 cursor-pointer opacity-95">
                 <div><img src="game1.webp" alt="" className="w-[9rem] md:w-[15rem] opacity-100"/></div>
-            {/* <div className="text-center text-white ">Minecraft Java & Bedrock</div> */}
+            <div className="text-center text-white ">Minecraft Java & Bedrock</div>
             </div>
         </div>
     </div>
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/4  p-[1rem] text-center w-1/2">
                 <div className="flex justify-center items-center flex-col bg-slate-900 p-[1rem] gap-[1rem] border-2 ">
-                <div><img src="https://www.minecraft.net/content/dam/minecraftnet/games/dungeons/key-art/Homepage_Discover-our-games_MC-Dungeons-KeyArt_864x864.jpg" alt="" className="w-[9rem] md:w-[15rem]"/></div>
+                <div><img src="mc2.webp" alt="" className="w-[9rem] md:w-[15rem]"/></div>
                 <div className="text-center text-white ">Minecraft Dungeons</div>
                 <Link href={"/product"}>
                 <button className="bg-green-600 border-t-4 border-t-green-400 border-b-4 border-b-green-800 px-[1rem] active:bg-green-800 active:border-t-green-800 active:border-b-green-950">Detail</button>
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/4  p-[1rem] text-center w-1/2">
                 <div className="flex justify-center items-center flex-col bg-slate-900 p-[1rem] gap-[1rem] border-2 ">
-                <div><img src="https://www.minecraft.net/content/dam/minecraftnet/games/badger/key-art/Homepage_Discover-our-games_MC-Legends-KeyArt_864x864.jpg" alt="" className="w-[9rem] md:w-[15rem]"/></div>
+                <div><img src="mc3.webp" alt="" className="w-[9rem] md:w-[15rem]"/></div>
                 <div className="text-center text-white ">Minecraft Legends</div>
                 <Link href={"/product"}>
                 <button className="bg-green-600 border-t-4 border-t-green-400 border-b-4 border-b-green-800 px-[1rem] active:bg-green-800 active:border-t-green-800 active:border-b-green-950">Detail</button>
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/4  p-[1rem] text-center w-1/2">
                 <div className="flex justify-center items-center flex-col bg-slate-900 p-[1rem] gap-[1rem] border-2 ">
-                <div><img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/logos/Homepage_Discover-our-games_MC-Education-KeyArt_864x864.jpg" alt="" className="w-[9rem] md:w-[15rem]"/></div>
+                <div><img src="mc1.webp" alt="" className="w-[9rem] md:w-[15rem]"/></div>
                 <div className="text-center text-white ">Minecraft Education</div>
                 <Link href={"/product"}>
                 <button className="bg-green-600 border-t-4 border-t-green-400 border-b-4 border-b-green-800 px-[1rem] active:bg-green-800 active:border-t-green-800 active:border-b-green-950">Detail</button>
