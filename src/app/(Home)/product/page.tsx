@@ -10,7 +10,7 @@ export default async function Product() {
     <div>
       <div
         id="games-section"
-        className="w-screen min-h-[100vh] p-8 bg-slate-700 flex flex-col justify-center items-center"
+        className="w-screen min-h-[100vh] p-8 bg-blue-950 flex flex-col justify-center items-center"
       >
         <div className="games-header w-full text-yellow-200 p-4 text-center mt-[3rem]">
           <h1 className="games-title text-2xl font-bold">Games</h1>
@@ -20,7 +20,7 @@ export default async function Product() {
           return (
             <div key={idx} data-cy="blog-item">
               <div className="game-container p-4 text-center w-full flex flex-col gap-[1rem]">
-                <div className="game-card flex flex-col md:flex-row justify-start items-start bg-slate-900 p-4 gap-4 border-2 w-full max-w-md mx-auto md:max-w-[200rem]">
+                <div className="game-card flex flex-col md:flex-row justify-start items-start bg-blue-900 p-4 gap-4 border-2 w-full max-w-md mx-auto md:max-w-[200rem]">
                   <div className="game-image w-full md:w-auto flex-shrink-0 flex justify-center">
                     {imageUrl && (
                       <Image
