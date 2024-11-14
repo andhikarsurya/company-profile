@@ -54,7 +54,7 @@ export default function Home() {
               height={500}      
             />
             </div>
-            {/* <div><p>Create, Build, Explore</p></div> */}
+            <div><p>Create, Build, Explore</p></div>
         </div>
     </div>
     <div className="w-1/2 flex justify-center items-center h-full flex-col">
