@@ -44,14 +44,8 @@ export default function Home() {
   }, []);
   if (!users) {
     return <div id="hero" className="hero flex md:flex-row justify-center items-center flex-col">
-    <div className="w-1/2 flex justify-center items-center h-full">
-        <div className="">
-        </div>
-    </div>
-    <div className="w-1/2 flex justify-center items-center h-full flex-col">
-        <div className="">
-        <div className=""></div>
-        </div>
+    
+    <div className="w-full flex justify-center items-center h-full flex-col">
     </div>
 </div>;
   }
