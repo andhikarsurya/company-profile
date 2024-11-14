@@ -48,18 +48,18 @@ export default function Home() {
         <div className="text-center text-white max-w-[37rem]">
             <div>
             <Image
-              src="/logo.png" 
+              src="/logo.webp" 
               alt="Logo"
               width={500}       
               height={500}      
             />
             </div>
-            <div><p>Create, Build, Explore</p></div>
+            {/* <div><p>Create, Build, Explore</p></div> */}
         </div>
     </div>
     <div className="w-1/2 flex justify-center items-center h-full flex-col">
         <div className="flex justify-center items-center md:flex-col bg-slate-900 p-[1rem] gap-[1rem] border-2 cursor-pointer opacity-95">
-            <div><img src="game1.jpg" alt="" className="w-[9rem] md:w-[15rem] opacity-100"/></div>
+            <div><img src="game1.webp" alt="" className="w-[9rem] md:w-[15rem] opacity-100"/></div>
         <div className="text-center text-white ">Minecraft Java & Bedrock</div>
         </div>
     </div>
