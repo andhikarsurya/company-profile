@@ -48,7 +48,7 @@ export default function Team() {
 
   return (
     <div className="flex justify-center items-center flex-col bg-slate-900 py-[3rem]">
-      <div className="text-center text-blue-400 font-bold text-[2rem] pb-[2rem] pt-[3rem]">Developer And 2D/3D Artist</div>
+      <div className="text-center text-blue-400 font-bold text-[2rem] pb-[2rem] pt-[3rem]">Development Team</div>
       <div className="flex text-center flex-wrap border-t-8 border-t-blue-800 bg-blue-900 w-[90%] border-b-8 border-b-blue-950 mb-[3rem]">
         {users.map((user, index) => (
           <div key={index} className="flex justify-center items-center flex-col p-[1rem] gap-[1rem] basis-1/3 max-w-[33%]">
