@@ -24,7 +24,7 @@ export default async function Product() {
                   <div className="game-image w-full md:w-auto flex-shrink-0 flex justify-center">
                     {imageUrl && (
                       <Image
-                        src={imageUrl}
+                        src={`https:${item.fields.thumbnail.fields.file.url}`}
                         alt={item.fields.title} // Dynamically set alt text
                         width={200}
                         height={200}

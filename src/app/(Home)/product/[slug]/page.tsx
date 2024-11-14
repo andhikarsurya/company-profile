@@ -25,7 +25,7 @@ const options : Options = {
               <div className="text-white py-[3rem] mt-[3rem]">{data.fields.title}</div>
                 <div>
                 <Image
-                src={`https://${data.fields.thumbnail.fields.file.url}`}
+                src={`https:${data.fields.thumbnail.fields.file.url}`}
                 alt={""} 
                 width={600}
                 height={600}
