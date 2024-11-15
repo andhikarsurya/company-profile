@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Navbar(){
     return(
-    <div>
+<div>
 <header>
     <nav>
         <ul className="w-screen flex gap-[1rem] justify-between items-center p-[1rem] bg-green-800 text-white shadow-xl opacity-90">
