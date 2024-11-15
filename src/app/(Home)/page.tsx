@@ -53,7 +53,6 @@ export default function Home() {
     </div>
 </div>;
   }
-
   return (
     <div >
           <div id="hero" className="hero flex md:flex-row justify-center items-center flex-col">

@@ -14,8 +14,7 @@ export default async function Product() {
     <div>
       <div
         id="games-section"
-        className="w-screen min-h-[100vh] p-8 bg-blue-950 flex flex-col justify-center items-center"
-      >
+        className="w-screen min-h-[100vh] p-8 bg-blue-950 flex flex-col justify-center items-center">
         <div className="games-header w-full text-yellow-200 p-4 text-center mt-[3rem]">
           <h1 className="games-title text-2xl font-bold">Games</h1>
         </div>

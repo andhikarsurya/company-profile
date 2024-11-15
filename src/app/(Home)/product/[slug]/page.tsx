@@ -6,7 +6,6 @@ import { BLOCKS } from "@contentful/rich-text-types";
 import Image from "next/image";
 export async function generateMetadata({ params}: { params:{slug:string}}){
   const game: IGame = await getGamesSlug(params.slug)
-  
   return{
       title: game.fields.title,
       description: game.fields.title,
