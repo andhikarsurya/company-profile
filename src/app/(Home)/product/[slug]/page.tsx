@@ -13,7 +13,7 @@ const options : Options = {
       [BLOCKS.HEADING_2]: (_node, children) => <h2 className="my-heading">{children}</h2>,
       [BLOCKS.HEADING_3]: (_node, children) => <h3 className="my-heading">{children}</h3>,
     },
-  };
+};
   return(
     <div>
         <div id="product" className="w-screen h-full flex justify-center items-center flex-col " 
