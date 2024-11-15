@@ -1,3 +1,4 @@
+"use client"
 import { IGame } from "@/types/game";
 import { getGamesSlug } from "../../libs/game";
 import { documentToReactComponents, Options } from "@contentful/rich-text-react-renderer";

@@ -1,3 +1,4 @@
+"use client"
 import { IGame } from "@/types/game";
 import Image from "next/image";
 import { getGames } from "../libs/game";

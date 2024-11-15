@@ -1,4 +1,4 @@
-
+"use client"
 export async function generateMetadata({ params}: { params:{slug:string}}){
     return{
         title: "About",
