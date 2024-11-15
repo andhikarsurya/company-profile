@@ -76,22 +76,22 @@ nav{
   font-size: 14px;
 }
 }
-/* For most modern browsers */
+
 ::-webkit-scrollbar {
-  width: 9px; /* Width for vertical scrollbar */
-  height: 9px; /* Height for horizontal scrollbar */
+  width: 9px; 
+  height: 9px; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: salmon; /* Color of the scrollbar thumb */
-  border-radius: 4px; /* Rounded edges for smoother look */
+  background-color: salmon; 
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-track {
-  background: seagreen; /* Background color of the scrollbar track */
+  background: seagreen; 
 }
 
-/* Optional: Change colors on hover for the thumb */
+
 ::-webkit-scrollbar-thumb:hover {
-  background: darksalmon /* Darker shade when hovering */
+  background: darksalmon 
 }
