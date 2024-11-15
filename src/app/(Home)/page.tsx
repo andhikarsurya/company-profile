@@ -44,7 +44,6 @@ export default function Home() {
       } finally {
       }
     };
-
     fetchData();
   }, []);
   if (!users) {
