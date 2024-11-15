@@ -1,3 +1,9 @@
+
+export async function generateMetadata({ params}: { params:{slug:string}}){
+    return{
+        title: "About",
+    }
+  }
 export default function About(){
     return(
         <div>

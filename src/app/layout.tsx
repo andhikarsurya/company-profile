@@ -14,8 +14,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Minecraft",
-  description: "Made by Mojang",
+  title: {
+    template :"Minecraft | %s",
+    default: "Minecraft",
+  },
+  description: "Minecraft made by Mojang"
 };
 
 export default function RootLayout({
