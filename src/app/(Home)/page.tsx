@@ -24,7 +24,6 @@ export default function Home() {
         const response = await fetch('https://jsonplaceholder.typicode.com/users');
         const data = await response.json();
         const fetchedUsers: User[] = data.slice(0, 3).map((userData: iUser) => ({
-
           name: {
             first: userData.name.split(" ")[0],
             last: userData.name.split(" ")[1] || '',

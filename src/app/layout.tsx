@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   },
   description: "Minecraft made by Mojang"
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{

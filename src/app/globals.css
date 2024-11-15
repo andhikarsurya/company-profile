@@ -60,8 +60,6 @@ body {
   font-family: 'Minecraftia', sans-serif;
   overflow-x: hidden;
 }
-
-
   @media screen and (max-width: 768px) {
 nav{
   font-size: 15px;
@@ -76,7 +74,6 @@ nav{
   font-size: 14px;
 }
 }
-
 ::-webkit-scrollbar {
   width: 9px; 
   height: 9px; 
