@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Navbar(){
     return(
     <div>
-            <header>
+<header>
     <nav>
         <ul className="w-screen flex gap-[1rem] justify-between items-center p-[1rem] bg-green-800 text-white shadow-xl opacity-90">
             <div>
@@ -18,7 +18,7 @@ export default function Navbar(){
             <div className="mr-[1rem]">Profile</div>
         </ul>
     </nav>
-            </header>
+</header>
     </div>
     )
 }

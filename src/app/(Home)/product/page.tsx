@@ -24,11 +24,10 @@ export default async function Product() {
                     {imageUrl && (
                       <Image
                         src={`https:${item.fields.thumbnail.fields.file.url}`}
-                        alt={item.fields.title} // Dynamically set alt text
+                        alt={item.fields.title}
                         width={200}
                         height={200}
-                        className="max-w-[20rem] max-h-[14rem] items-center justify-center"
-                      />
+                        className="max-w-[20rem] max-h-[14rem] items-center justify-center"/>
                     )}
                   </div>
                   <div className="game-description text-start text-white flex flex-col w-full">

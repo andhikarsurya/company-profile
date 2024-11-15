@@ -18,9 +18,9 @@ const options : Options = {
     <div>
         <div id="product" className="w-screen h-full flex justify-center items-center flex-col " 
             style={{ 
-            backgroundImage: `url(https://www.minecraft.net/content/dam/games/minecraft/key-art/Legends-PMP_Hero-Art_FullBleedA_Desktop_2880x1320.jpg`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundImage:`url(https://www.minecraft.net/content/dam/games/minecraft/key-art/Legends-PMP_Hero-Art_FullBleedA_Desktop_2880x1320.jpg`,
+            backgroundSize:'cover',
+            backgroundPosition:'center',
             position: "relative"}}>
               <div className="w-[90%] p-[1rem] flex flex-col justify-center items-center bg-slate-900 text-white text-justify opacity-90">
               <div className="text-white py-[3rem] mt-[3rem]">{data.fields.title}</div>
