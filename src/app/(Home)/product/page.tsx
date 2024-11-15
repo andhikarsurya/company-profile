@@ -3,7 +3,6 @@ import { IGame } from "@/types/game";
 import Image from "next/image";
 import { getGames } from "../libs/game";
 import Link from "next/link";
-
 export default async function Product() {
   const data: IGame[] = await getGames();
   return (
