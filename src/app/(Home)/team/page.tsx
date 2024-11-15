@@ -1,11 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
 
-export async function generateMetadata({ params}: { params:{slug:string}}){
-  return{
-      title: "Team",
-  }
-}
 
 interface User {
   name: {

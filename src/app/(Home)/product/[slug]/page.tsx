@@ -1,9 +1,15 @@
 "use client"
 import { IGame } from "@/types/game";
-import { getGamesSlug } from "../../libs/game";
+import { getGames, getGamesSlug } from "../../libs/game";
 import { documentToReactComponents, Options } from "@contentful/rich-text-react-renderer";
 import { BLOCKS } from "@contentful/rich-text-types";
 import Image from "next/image";
+export const generateStaticParams = async () => {
+  const blogs:IGame[] = await getGames()
+  return blogs.map((item) => ({
+      slug: item.fields.slug
+  }))
+}
 export async function generateMetadata({ params}: { params:{slug:string}}){
   const game: IGame = await getGamesSlug(params.slug)
   return{
@@ -50,7 +56,6 @@ const options : Options = {
                 <button className="bg-green-600 border-t-4 border-t-green-400 border-b-4 border-b-green-800 px-[1rem] active:bg-green-800 active:border-t-green-800 active:border-b-green-950">{data.fields.price}</button>
                 </div>
               </div>
-              
         </div>
     </div>
   )
