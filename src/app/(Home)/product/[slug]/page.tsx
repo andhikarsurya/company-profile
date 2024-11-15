@@ -42,5 +42,5 @@ const options : Options = {
               </div>
         </div>
     </div>
-  )
+)
 }
