@@ -1,25 +1,9 @@
 "use client"
 import { IGame } from "@/types/game";
-import { getGames, getGamesSlug } from "../../libs/game";
+import { getGamesSlug } from "../../libs/game";
 import { documentToReactComponents, Options } from "@contentful/rich-text-react-renderer";
 import { BLOCKS } from "@contentful/rich-text-types";
 import Image from "next/image";
-export const generateStaticParams = async () => {
-  const blogs:IGame[] = await getGames()
-  return blogs.map((item) => ({
-      slug: item.fields.slug
-  }))
-}
-export async function generateMetadata({ params}: { params:{slug:string}}){
-  const game: IGame = await getGamesSlug(params.slug)
-  return{
-      title: game.fields.title,
-      description: game.fields.title,
-      openGraph: {
-          images:[`https:${game.fields.thumbnail.fields.file.url}`]
-      }
-  }
-}
 export default async function ProductDetail({params}:{params:{slug:string}}){
 const data : IGame = await getGamesSlug(params.slug)
 const options : Options = {
